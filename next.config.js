@@ -4,11 +4,19 @@ module.exports = {
         {
           source: '/',
           destination: 'https://scrapbook.hackclub.com/sampoder/',
-        },
-        {
-            source: '/index',
-            destination: 'https://scrapbook.hackclub.com/sampoder/',
         }
       ]
     },
+    async redirects() {
+        return [
+            { "source": "/attachments/:id/:id2/", "destination": "https://scrapbook.hackclub.com/attachments/:id/:id2/" },
+            { "source": "/:id/", "destination": "https://scrapbook.hackclub.com/:id" },
+            { "source": "/:id/:id2/", "destination": "https://scrapbook.hackclub.com/:id/:id2" },
+            { "source": "/:id/:id2/:id3/", "destination": "https://scrapbook.hackclub.com/:id/:id2/:id3" },
+            { "source": "/:id/:id2/:id3/:id4/", "destination": "https://scrapbook.hackclub.com/:id/:id2/:id3/:id4" },
+            { "source": "/_next/static/:id/:id2.css", "destination": "https://scrapbook.hackclub.com/_next/static/:id/:id2.css" },
+            { "source": "/_next/static/:id/:id2.js", "destination": "https://scrapbook.hackclub.com/_next/static/:id/:id2.js" },
+            { "source": "/_next/static/chunks/pages/:id2.js", "destination": "https://scrapbook.hackclub.com/_next/static/chunks/pages/:id2.js" }
+        ]
+      },
   }
