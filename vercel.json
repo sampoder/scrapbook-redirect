@@ -1,10 +1,9 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/index" }
+    { "source": "/", "destination": "/index/" }
   ],
   "redirects": [
     { "source": "/attachments/:id/:id2/", "destination": "https://scrapbook.hackclub.com/attachments/:id/:id2/" },
-    { "source": "/:id/", "destination": "https://scrapbook.hackclub.com/:id" },
     { "source": "/:id/:id2/", "destination": "https://scrapbook.hackclub.com/:id/:id2" },
     { "source": "/:id/:id2/:id3/", "destination": "https://scrapbook.hackclub.com/:id/:id2/:id3" },
     { "source": "/:id/:id2/:id3/:id4/", "destination": "https://scrapbook.hackclub.com/:id/:id2/:id3/:id4" },
