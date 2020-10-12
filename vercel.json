@@ -8,5 +8,8 @@
     { "source": "/_next/static/:id/:id2.css", "destination": "https://scrapbook.hackclub.com/_next/static/:id/:id2.css" },
     { "source": "/_next/static/:id/:id2.js", "destination": "https://scrapbook.hackclub.com/_next/static/:id/:id2.js" },
     { "source": "/_next/static/chunks/pages/:id2.js", "destination": "https://scrapbook.hackclub.com/_next/static/chunks/pages/:id2.js" }
-  ]
+  ],
+  "github": {
+    "silent": true
+  }
 }
