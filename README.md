@@ -1,2 +1,2 @@
-# scrapbook-redirect
-🐬 Redirects your own domain to your Scrapbook
+# 🐬 scrapbook-redirect
+Redirects your own domain to your Scrapbook
