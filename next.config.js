@@ -9,7 +9,7 @@ module.exports = {
     },
     async redirects() {
         return [
-            { "source": "/attachments/:id/:id2/", "destination": "https://scrapbook.hackclub.com/attachments/:id/:id2/", permanent: true},
+            { "source": "/attachments/:id/:id2", "destination": "https://scrapbook.hackclub.com/attachments/:id/:id2", permanent: true},
             { "source": "/:id/", "destination": "https://scrapbook.hackclub.com/:id", permanent: true},
             { "source": "/:id/:id2/", "destination": "https://scrapbook.hackclub.com/:id/:id2", permanent: true},
             { "source": "/:id/:id2/:id3/", "destination": "https://scrapbook.hackclub.com/:id/:id2/:id3", permanent: true},
