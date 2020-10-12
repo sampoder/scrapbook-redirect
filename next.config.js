@@ -1,8 +1,11 @@
-export async function rewrites() {
-    return [
+module.exports = {
+    trailingSlash: true,
+    async rewrites() {
+      return [
         {
-            source: '/',
-            destination: 'https://scrapbook.hackclub.com/sampoder/',
+          source: '/',
+          destination: 'https://scrapbook.hackclub.com/sampoder/',
         },
-    ]
-}
+      ]
+    },
+  }
