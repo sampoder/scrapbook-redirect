@@ -1,4 +1,7 @@
 {
+  "rewrites": [
+    { "source": "/", "destination": "/index" }
+  ],
   "redirects": [
     { "source": "/attachments/:id/:id2/", "destination": "https://scrapbook.hackclub.com/attachments/:id/:id2/" },
     { "source": "/:id/", "destination": "https://scrapbook.hackclub.com/:id" },
