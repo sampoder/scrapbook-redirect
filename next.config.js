@@ -6,6 +6,10 @@ module.exports = {
           source: '/',
           destination: 'https://scrapbook.hackclub.com/sampoder/',
         },
+        {
+            source: '/index',
+            destination: 'https://scrapbook.hackclub.com/sampoder/',
+        }
       ]
     },
   }
