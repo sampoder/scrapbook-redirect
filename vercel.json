@@ -3,6 +3,6 @@
     { "source": "/", "destination": "https://scrapbook.hackclub.com/sampoder/" }
   ],
   "redirects": [
-    { "source": "/attachments/*", "destination": "https://scrapbook.hackclub.com/attachments/*" }
+    { "source": "/attachments/:id", "destination": "https://scrapbook.hackclub.com/attachments/:id" }
   ]
 }
