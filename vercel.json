@@ -1,6 +1,6 @@
 {
   "rewrites": [
     { "source": "/", "destination": "https://scrapbook.hackclub.com/sampoder/" },
-    { "source": "/attachments/*", "destination": "https://scrapbook.hackclub.com/attachments/*" }
+    { "source": "/attachments/:match*", "destination": "https://scrapbook.hackclub.com/attachments/:match*" }
   ]
 }
